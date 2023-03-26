@@ -1,0 +1,45 @@
+.aboutme-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 500px;
+}
+
+.aboutme-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #e7e7e7;
+  gap: 20px;
+  text-align: center;
+}
+
+.aboutme-photo {
+  border-radius: 10%;
+  width: 125px;
+  height: auto;
+}
+
+.aboutme-span {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.aboutme-span-big {
+  font-size: 1.1rem;
+}
+
+.aboutme-span-small {
+  font-size: 0.95rem;
+}
+
+.aboutme-span-big:hover,
+.aboutme-span-small:hover {
+  cursor: default;
+}

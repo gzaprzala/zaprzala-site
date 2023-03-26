@@ -1,0 +1,11 @@
+.skillicon {
+  display: flex;
+  justify-content: center;
+  height: 90px;
+  width: 110px;
+}
+
+.skillicon img {
+  height: 65px;
+  width: auto;
+}

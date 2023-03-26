@@ -1,0 +1,44 @@
+.skills-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: fit-content;
+  background-color: #1a1a1a;
+  gap: 50px;
+  padding: 2rem 0;
+  overflow-x: hidden;
+}
+
+.skills-span {
+  font-size: 1.1rem;
+}
+
+.skills-span:hover {
+  cursor: default;
+}
+
+.skills-icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  height: fit-content;
+  width: 800px;
+  transition: 0.1s;
+}
+
+@media screen and (max-width: 900px) {
+  .skills-icons {
+    width: 600px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .skills-icons {
+    width: 400px;
+  }
+}
